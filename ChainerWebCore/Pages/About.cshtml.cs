@@ -12,7 +12,7 @@ namespace ChainerWebCore.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page.";
+            Message = "Chainer is a good boy";
         }
     }
 }
