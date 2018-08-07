@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 3D-Thirteen-Pixel-Fonts;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -277,6 +277,57 @@ th {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+    font-family: 'Bitmgothic';
+    src: url('../fonts/Bitmgothic.ttf');
+    src: url('../fonts/Bitmgothic.eot') format('embedded-opentype'), url('../fonts/Bitmgothic.woff') format('woff'), format('truetype'), url('../fonts/Bitmgothic.svg') format('svg');
+}
+
+.gtext {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: Bitmgothic;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+    font-family: 'ANTICLIMAX';
+    src: url('../fonts/ANTICLIMAX.TTF');
+    src: url('../fonts/ANTICLIMAX.TTF') format('truetype');
+}
+
+.atc {
+    position: relative;
+    top: 1px;
+    display: inline-block;  
+    font-family: ANTICLIMAX;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+    font-family: '3D-Thirteen-Pixel-Fonts';
+    src: url('../fonts/3D-Thirteen-Pixel-Fonts.TTF');
+    src: url('../fonts/3D-Thirteen-Pixel-Fonts.TTF') format('truetype');
+}
+
+.arc {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 3D-Thirteen-Pixel-Fonts;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .glyphicon-asterisk:before {
   content: "\002a";
@@ -1077,13 +1128,13 @@ th {
           box-sizing: border-box;
 }
 html {
-  font-size: 10px;
+  font-size: 13px;
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: 3D-Thirteen-Pixel-Fonts, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -1173,17 +1224,28 @@ hr {
 }
 h1,
 h2,
-h3,
+h3 {
+    font-family: Bitmgothic;
+    font-weight:  normal;
+    line-height:  normal;
+    color: black;
+}
 h4,
 h5,
 h6,
 .h1,
 .h2,
 .h3,
-.h4,
+.h4 {
+    font-family: 3D-Thirteen-Pixel-Fonts;
+    font-weight: 600;
+    font-size: larger;
+    line-height: normal;
+    color: inherit;
+}
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: Bitmgothic;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1589,17 +1651,17 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 80%;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 80%;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 70%;
   }
 }
 .container-fluid {
@@ -4273,10 +4335,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 50px;
+  height: auto;
   padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
+  font-size:  x-large;
+  line-height: 15px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
